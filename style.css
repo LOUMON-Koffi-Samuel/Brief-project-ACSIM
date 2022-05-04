@@ -1,17 +1,51 @@
 *{
-  font-size: x-large;
+  font-size: 30px;
+  font-family: 'K2D-ExtraBold';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color:white;
 }
 
-body{
-    margin: 5% 16% 0 16%;
-    background-color: black;
-    color:white;
+@font-face{
+    font-family: 'K2D-ExtraBold';
+    src: url('Police/K2D/K2D-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'K2D-Bold';
+    src: url('Police/K2D/K2D-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'K2D-Medium';
+    src: url('Police/K2D/K2D-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'K2D-Regular';
+    src: url('Police/K2D/K2D-Regular.ttf');
+}
+
+p{
+    font-family: 'K2D-Regular';
+}
+
+h2{
+    font-family: 'K2D-Bold';
+}
+
+.fond-ecran__header{
+    background-image: url("Images/BG 01.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 3% 20% 0 20%;
 }
 
 h1{
-    font-size: 50px;
-    color: rgb(16, 78, 73);
-    margin: 100px 0 100px 0;
+    font-size: 70px;
+    color: #008C8C;
+    margin: 50px 0 100px 0;
 }
 
 .header__nom-nav__flex{
@@ -20,78 +54,149 @@ h1{
 }
 
 .header__nom{
-   margin-top: 0;
+    margin-top: 0;
 }
 
-.header-ul{
+.header-lien{
     display: flex;
-    list-style-type: none;
-   
+}
+.header-lien a{
+    margin-right: 30px;
+    margin-top: 35px;
 }
 
-.header-ul li{
-   margin-right: 20px;
-}
 a{
     text-decoration: none;
     color: white;
+    font-family: 'K2D-Medium'
 }
 
 .header__description{
-    width: 500px;
+    width: 800px;
     color: white;
-    margin: 150px 0 200px 0;
+    margin: 200px 0 0 0;
+    padding-bottom: 300px;
+}
+
+.fond-ecran__agence-service{
+    background-image: url("Images/BG 02@3x.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 3% 20% 100px 20%;
 }
 
 section h1{
-    margin-left: 250px;
+    margin-left: 25%;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    margin-top: 80px;
 }
 
 .agence__div , .temoignage__bloc{
-    border: 4px solid rgb(16, 78, 73) ;
+    border: 4px solid #008C8C ;
     border-radius: 30px;
     padding: 30px;
 }
 
 .service__border-flex{
     display: flex;
-    border: 4px solid rgb(16, 78, 73) ;
+   
+    border: 4px solid #008C8C ;
     border-radius: 30px;
     padding: 30px;
     margin-top: 30px;
 }
 
+.service__border-flex div{
+    margin-left: 100px;
+}
+
+.service__border-flex img{
+    border: 4px solid white;
+    border-radius: 15px;
+    padding: 20px;
+   margin-top: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.fond-ecran__realisation{
+    background-image: url("Images/BG 01.png");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    padding: 3% 20% 5% 20%;
+}
+
 .realisations__img__flex{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1300px;
 }
 
 .realisations__img__border{
-    border: 4px solid rgb(16, 78, 73) ;
+    border: 4px solid #008C8C ;
+    width: 350px;
+    height: 200px;
+    margin: 50px 40px 10px 0;
 }
 
 .input__realisation, .input__temoignage,
  #contacter__form__submit,.contacter__form__width{
     border-radius: 0.7em;
-    color: rgb(16, 78, 73);
+    color: #008C8C;
     background-color: transparent;
-    border: 4px solid rgb(16, 78, 73) ;
+    border: 4px solid #008C8C ;
     padding: 0.5em;
-    margin-top: 1em;
-    margin-left: 300px;
+    margin-top: 1.5em;
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+.contacter__form__width{
+    cursor: text;
+}
+
+#partenaire{
+    margin: 0 20% 5% 20%;
 }
 
 .partenaire__flex, .temoignage__bloc__flex{
     display: flex;
+    justify-content: space-between;
+   
+}
+
+.partenaire__flex img{
+    width: 220px;
+    height: 100px;
+}
+
+#vector01, #vector02{
+    width: 30px;
+    height: 50px;
+
+}
+
+.fond-ecran__temoignage-contacter{
+    background-image: url("Images/BG 02@3x.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 3% 20% 100px 20%;
 }
 
 .temoignage__bloc{
    width: 400px;
-   height: 380px;
-   padding: 0 5px 0 10px;
+   height: 600px;
+   padding: 20px;
    margin-right: 20px;
-    color: black;
-    background-color: white;
+  
+   background-color: white;
 }
+
+.temoignage__bloc p{
+    color: black;
+}
+
 .input__temoignage, #contacter__form__submit, .contacter__form__width{
     color: black;
     background-color: white;
@@ -117,21 +222,46 @@ form{
 }
 
 .maps{
-    border-radius: 0.7em;
-margin-left: 20px;
+    margin-left: 100px;;
+}
+iframe{
+    margin-top: 8%;
+    border-radius: 10px;
 }
 
 .footer__01{
     margin: 100px 0 100px 0;
+    background-color: #008C8C;
+    padding: 2% 20% 5% 20%;
+    margin: 0;
 }
 .footer__flex{
     display: flex;
 }
+
+.footer__p__description{
+    width: 60%;
+}
+
+.footer__contact__flex{
+    display: flex;
+}
+
+.footer__contact__flex img{
+    margin-right: 20px;
+}
+
+.footer__contact__img{
+    margin-right: 50px;
+}
 .footer__copyright-barre{
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    padding: 0 20% 0 20%;
 }
 
-.footer__copyright-barre a{
-    margin-top: 10px;
+.footer__copyright-barre a, .footer__copyright-barre p{
+    font-size: medium;
+    padding: 10px 0 10px 0;
 }
