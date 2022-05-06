@@ -1,5 +1,5 @@
 *{
-    font-size: 1.02em;
+    font-size: 15px;
     font-family: 'K2D-ExtraBold';
     box-sizing: border-box;
     margin: 0;
@@ -36,15 +36,12 @@ section h1{
 
 h2{
     font-family: 'K2D-Bold';
-}
-
-section h2{
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 1.5rem;
 }
 
 p{
     font-family: 'K2D-SemiBold';
-    font-size: 1.2em;
+    font-size: 1.5rem;
 }
 
 a{
@@ -57,7 +54,7 @@ a{
 .fond-ecran__header{
     background-image: url("Images/BG 01.png");
     background-repeat: no-repeat;
-    background-size: 108em;
+    background-size: cover;
     padding: 3% 18% 10% 18%;
 }
 
@@ -72,37 +69,39 @@ a{
 
 .header-lien{
     display: flex;
+    font-size: 1.2rem;
 }
 
 .header-lien a{
-    margin-right: 0.7em;
+    margin-right: 1em;
     margin-top: 3.5%;
 }
 
 .header__description{
-    width: 70%;
+    width: 600px;
     color: white;
-    margin: 15% 0 0 0;
-    padding-bottom: 20%;
+    margin: 10% 0 10% 0;
 }
 
 .fond-ecran__agence-service{
     background-image: url("Images/BG 02@3x.png");
     background-repeat: no-repeat;
-    background-size: 100em;
+    background-size: cover;
     padding: 3% 18% 10% 18%;
 }
 
 .agence__div , .temoignage__bloc{
     border: 4px solid #008C8C ;
-    border-radius: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255,0.1);
     padding: 30px;
 }
 
 .service__border-flex{
     display: flex;
     border: 4px solid #008C8C ;
-    border-radius: 30px;
+    background-color: rgb(255, 255, 255,0.1);
+    border-radius: 20px;
     padding: 30px;
     margin-top: 30px;
 }
@@ -123,8 +122,8 @@ a{
 .fond-ecran__realisation{
     background-image: url("Images/BG 01.png");
     background-repeat: no-repeat;
-    background-size: 125em;
-    padding: 3% 18% 10% 18%;
+    background-size: cover;
+    padding: 3% 20% 10% 20%;
 }
 
 .realisations__img__flex{
@@ -142,14 +141,23 @@ a{
 
 .input__realisation, .input__temoignage,
  #contacter__form__submit,.contacter__form__width{
-    border-radius: 0.7em;
+    border-radius: 10px;
     color: #008C8C;
     background-color: transparent;
     border: 4px solid #008C8C ;
-    padding: 0.5em;
+    padding: 10px;
     margin-top: 1.5em;
-    margin-left: 35%;
+    margin-left: 37%;
+    font-size: 1.5rem;
     cursor: pointer;
+}
+
+.input__realisation:hover, 
+.input__temoignage:hover,  #contacter__form__submit:hover{
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    background-color: #008C8C;
+    border: 4px solid rgb(255, 253, 253, 0.8) ;
 }
 
 #partenaire{
@@ -166,15 +174,10 @@ a{
     height: 90px;
 }
 
-#vector01, #vector02{
-    width: 30px;
-    height: 50px;
-}
-
 .fond-ecran__temoignage-contacter{
     background-image: url("Images/BG 02@3x.png");
     background-repeat: no-repeat;
-    background-size: 100em;
+    background-size: cover;
     padding: 3% 18% 10% 18%;
 }
 
@@ -202,12 +205,11 @@ a{
  form{
      display: flex;
      flex-direction: column;
-     width: 40%;
+     width: 35%;
  }
  
  .contacter__form__width{
      margin-left: 0;
-     margin-bottom: 1em;
      cursor: text;
  }
  
@@ -217,16 +219,17 @@ a{
  }
  
  .maps{
+     margin-right: 15%;
      width: 40%;
  }
  iframe{
-    margin-top: 8%;
+    margin-top: 5%;
     border-radius: 10px;
     width: 100%;
-    height:35em;
+    height: 700px;;
  }
  
- .footer__01{
+ .footer__BG-color{
      margin: 10% 0 10% 0;
      background-color: #008C8C;
      padding: 2% 18% 5% 18%;
@@ -237,16 +240,22 @@ a{
      justify-content: space-between;
  }
 .footer__div__description{
-    width: 48%;
+    width: 45%;
 }
  
  .footer__contact__flex{
      display: flex;
  }
+
+ .footer__contact{
+     width: 40%;
+ }
  
  .footer__contact__flex img{
-     margin-right: 20px;
- }
+    margin-right: 30px;
+    width: 10%;
+    height: 2em;
+}
  
  .footer__contact__img{
      margin-right: 50px;
@@ -261,10 +270,169 @@ a{
  }
 
  .footer__copyright-barre a{
-     margin-left: 30px;
+     margin-left: 3%;
  }
  
  .footer__copyright-barre a, .footer__copyright-barre p{
-     font-size: medium;
+     font-size: 1em;
+ }
+ 
+ .footer__lien{
+     width: 50%;
  }
 
+ @media all and (max-width: 1200px) and (min-width: 1020px)
+ {
+     *{
+         font-size: 13px;
+     }
+
+     .header__description{
+        width: 500px;
+    }
+
+    .realisations__img__border{
+        width: 250px;
+        height: 150px;
+    }
+
+    .fond-ecran__header, .fond-ecran__agence-service,
+    .fond-ecran__realisation, .fond-ecran__temoignage-contacter
+    {
+        padding: 3% 10% 10% 10%;
+    }
+
+    #partenaire{
+        margin: 0 10% 5% 10%;
+    }
+
+    iframe{
+        height:50vmax;
+     }
+
+    .footer__BG-color{
+        padding: 2% 10% 5% 10%;
+    }
+    
+    .footer__copyright-barre{
+        padding: 0.5% 10% 0.5% 10%;
+    }
+
+ }
+
+ @media all and (max-width: 1019px) and (min-width:700px)
+ {
+     *{
+         font-size: 7px;
+     }
+
+     .header__description{
+        width: 250px;
+    }
+
+    .realisations__img__border{
+        width: 200px;
+        height: 100px;
+    }
+
+    .fond-ecran__header, .fond-ecran__agence-service,
+    .fond-ecran__realisation, .fond-ecran__temoignage-contacter
+    {
+        padding: 3% 10% 10% 10%;
+    }
+
+    #partenaire{
+        margin: 0 10% 5% 10%;
+    }
+
+    iframe{
+        height:30vmax;
+     }
+
+    .footer__contact__flex img{
+        margin-right: 30px;
+        width: 10%;
+        height: 2em;
+    }
+    .footer__BG-color{
+        padding: 2% 10% 5% 10%;
+    }
+    
+    .footer__copyright-barre{
+        padding: 0.5% 10% 0.5% 10%;
+    }
+ }
+
+
+ @media all and (max-width: 699px)
+ {
+     *{
+         font-size: 5px;
+     }
+
+     .header__description{
+        width: 200px;
+    }
+
+    .agence__div , .temoignage__bloc,     
+    .service__border-flex, .input__realisation, .input__temoignage,
+    #contacter__form__submit,.contacter__form__width{
+        border: 2px solid #008C8C ;
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+    .service__border-flex img{
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 1.5%;
+       margin-top: 5px;
+        width: 13%;
+        height: 5%;
+    }
+
+    .realisations__img__border{
+        width: 140px;
+        height: 70px;
+    }
+
+    .fond-ecran__header, .fond-ecran__agence-service,
+    .fond-ecran__realisation, .fond-ecran__temoignage-contacter
+    {
+        padding: 3% 10% 10% 10%;
+    }
+
+    #partenaire{
+        margin: 0 10% 5% 10%;
+    }
+
+
+.partenaire__flex img{
+    width: 90px;
+    height: 30px;
+}
+
+iframe{
+    height:25vmax;
+ }
+
+ .footer__contact__flex img{
+    margin-right: 10px;
+    width: 10%;
+    height: 2em;
+}
+
+ .footer__contact__img{
+    margin-right: 20px;
+    width: 5%;
+    height: 2em;
+}
+
+    .footer__BG-color{
+        padding: 2% 10% 5% 10%;
+    }
+    
+    .footer__copyright-barre{
+        padding: 0.5% 10% 0.5% 10%;
+    }
+ }
