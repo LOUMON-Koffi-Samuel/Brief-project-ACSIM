@@ -1,10 +1,10 @@
 *{
-  font-size: 30px;
-  font-family: 'K2D-ExtraBold';
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color:white;
+    font-size: 1.02em;
+    font-family: 'K2D-ExtraBold';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:white;
 }
 
 @font-face{
@@ -18,34 +18,47 @@
 }
 
 @font-face{
-    font-family: 'K2D-Medium';
-    src: url('Police/K2D/K2D-Medium.ttf');
+    font-family: 'K2D-SemiBold';
+    src: url('Police/K2D/K2D-SemiBold.ttf');
 }
 
-@font-face {
-    font-family: 'K2D-Regular';
-    src: url('Police/K2D/K2D-Regular.ttf');
+h1{
+    font-size: 2.7em;
+    color: #008C8C;
+    margin: 40px 0 5% 0;
 }
 
-p{
-    font-family: 'K2D-Regular';
+section h1{
+    margin-left: 25%;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    margin-top: 7%;
 }
 
 h2{
     font-family: 'K2D-Bold';
 }
 
+section h2{
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+p{
+    font-family: 'K2D-SemiBold';
+    font-size: 1.2em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'K2D-SemiBold';
+    font-size: 1.2em;
+}
+
 .fond-ecran__header{
     background-image: url("Images/BG 01.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 3% 20% 0 20%;
-}
-
-h1{
-    font-size: 70px;
-    color: #008C8C;
-    margin: 50px 0 100px 0;
+    background-size: 108em;
+    padding: 3% 10% 10% 10%;
 }
 
 .header__nom-nav__flex{
@@ -60,35 +73,24 @@ h1{
 .header-lien{
     display: flex;
 }
-.header-lien a{
-    margin-right: 30px;
-    margin-top: 35px;
-}
 
-a{
-    text-decoration: none;
-    color: white;
-    font-family: 'K2D-Medium'
+.header-lien a{
+    margin-right: 0.7em;
+    margin-top: 3.5%;
 }
 
 .header__description{
-    width: 800px;
+    width: 80%;
     color: white;
-    margin: 200px 0 0 0;
-    padding-bottom: 300px;
+    margin: 15% 0 0 0;
+    padding-bottom: 20%;
 }
 
 .fond-ecran__agence-service{
     background-image: url("Images/BG 02@3x.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 3% 20% 100px 20%;
-}
-
-section h1{
-    margin-left: 25%;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    margin-top: 80px;
+    background-size: 100em;
+    padding: 3% 10% 10% 10%;
 }
 
 .agence__div , .temoignage__bloc{
@@ -99,7 +101,6 @@ section h1{
 
 .service__border-flex{
     display: flex;
-   
     border: 4px solid #008C8C ;
     border-radius: 30px;
     padding: 30px;
@@ -107,37 +108,36 @@ section h1{
 }
 
 .service__border-flex div{
-    margin-left: 100px;
+    margin-left: 5%;
 }
 
 .service__border-flex img{
     border: 4px solid white;
     border-radius: 15px;
-    padding: 20px;
+    padding: 1.5%;
    margin-top: 20px;
-    width: 200px;
-    height: 150px;
+    width: 13%;
+    height: 5%;
 }
 
 .fond-ecran__realisation{
     background-image: url("Images/BG 01.png");
     background-repeat: no-repeat;
-    background-size: 110%;
-    padding: 3% 20% 5% 20%;
+    background-size: 125em;
+    padding: 3% 10% 10% 10%;
 }
 
 .realisations__img__flex{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1300px;
 }
 
 .realisations__img__border{
     border: 4px solid #008C8C ;
     width: 350px;
     height: 200px;
-    margin: 50px 40px 10px 0;
+    margin: 20px 0 10px 0;
 }
 
 .input__realisation, .input__temoignage,
@@ -148,12 +148,8 @@ section h1{
     border: 4px solid #008C8C ;
     padding: 0.5em;
     margin-top: 1.5em;
-    margin-left: 400px;
+    margin-left: 35%;
     cursor: pointer;
-}
-
-.contacter__form__width{
-    cursor: text;
 }
 
 #partenaire{
@@ -163,105 +159,112 @@ section h1{
 .partenaire__flex, .temoignage__bloc__flex{
     display: flex;
     justify-content: space-between;
-   
 }
 
 .partenaire__flex img{
-    width: 220px;
-    height: 100px;
+    width: 210px;
+    height: 90px;
 }
 
 #vector01, #vector02{
     width: 30px;
     height: 50px;
-
 }
 
 .fond-ecran__temoignage-contacter{
     background-image: url("Images/BG 02@3x.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 3% 20% 100px 20%;
+    background-size: 100em;
+    padding: 3% 10% 10% 10%;
 }
 
 .temoignage__bloc{
-   width: 400px;
-   height: 600px;
-   padding: 20px;
-   margin-right: 20px;
-  
-   background-color: white;
-}
-
-.temoignage__bloc p{
-    color: black;
-}
-
-.input__temoignage, #contacter__form__submit, .contacter__form__width{
-    color: black;
+    width: 40%;
+    padding: 20px;
+    margin-right: 20px;
     background-color: white;
-}
-
-.contacter__flex{
-    display: flex;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-}
-
-.contacter__form__width{
-    margin-left: 0;
-    margin-bottom: 1em;
-}
-
-#contacter__form__submit{
-    margin-left: 0;
-    width: 50%;
-}
-
-.maps{
-    margin-left: 100px;;
-}
-iframe{
+ }
+ 
+ .temoignage__bloc p{
+     color: black;
+ }
+ 
+ .input__temoignage, #contacter__form__submit, .contacter__form__width{
+     color: black;
+     background-color: white;
+ }
+ 
+ .contacter__flex{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ form{
+     display: flex;
+     flex-direction: column;
+     width: 40%;
+ }
+ 
+ .contacter__form__width{
+     margin-left: 0;
+     margin-bottom: 1em;
+     cursor: text;
+ }
+ 
+ #contacter__form__submit{
+     margin-left: 0;
+     width: 50%;
+ }
+ 
+ .maps{
+     width: 40%;
+ }
+ iframe{
     margin-top: 8%;
     border-radius: 10px;
+    width: 100%;
+    height:35em;
+ }
+ 
+ .footer__01{
+     margin: 10% 0 10% 0;
+     background-color: #008C8C;
+     padding: 2% 10% 5% 10%;
+     margin: 0;
+ }
+ .footer__flex{
+     display: flex;
+     justify-content: space-between;
+ }
+.footer__div__description{
+    width: 50%;
 }
+ 
+ .footer__contact__flex{
+     display: flex;
+ }
+ 
+ .footer__contact__flex img{
+     margin-right: 20px;
+ }
+ 
+ .footer__contact__img{
+     margin-right: 50px;
+     width: 5%;
+     height: 2em;
+ }
+ .footer__copyright-barre{
+     display: flex;
+     justify-content: space-between;
+     background-color: black;
+     padding: 0.5% 10% 0.5% 10%;
+ }
 
-.footer__01{
-    margin: 100px 0 100px 0;
-    background-color: #008C8C;
-    padding: 2% 20% 5% 20%;
-    margin: 0;
-}
-.footer__flex{
-    display: flex;
-}
+ .footer__copyright-barre a{
+     margin-left: 30px;
+ }
+ 
+ .footer__copyright-barre a, .footer__copyright-barre p{
+     font-size: medium;
+ }
 
-.footer__p__description{
-    width: 60%;
-}
-
-.footer__contact__flex{
-    display: flex;
-}
-
-.footer__contact__flex img{
-    margin-right: 20px;
-}
-
-.footer__contact__img{
-    margin-right: 50px;
-}
-.footer__copyright-barre{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    padding: 0 20% 0 20%;
-}
-
-.footer__copyright-barre a, .footer__copyright-barre p{
-    font-size: medium;
-    padding: 10px 0 10px 0;
-}
