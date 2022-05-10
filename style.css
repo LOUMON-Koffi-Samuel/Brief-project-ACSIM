@@ -51,6 +51,11 @@ a{
     font-size: 1.2em;
 }
 
+a:hover{
+    color: #008C8C;
+    font-size: 1.4em;
+}
+
 .fond-ecran__header{
     background-image: url("Images/BG 01.png");
     background-repeat: no-repeat;
@@ -148,7 +153,7 @@ a{
     padding: 10px;
     margin-top: 1.5em;
     margin-left: 37%;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     cursor: pointer;
 }
 
@@ -158,6 +163,7 @@ a{
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     background-color: #008C8C;
     border: 4px solid rgb(255, 253, 253, 0.8) ;
+    font-size: 1.8rem;
 }
 
 #partenaire{
@@ -247,6 +253,10 @@ a{
      display: flex;
  }
 
+ .footer__contact__flex a:hover{
+    color:white;
+}
+
  .footer__contact{
      width: 40%;
  }
@@ -262,6 +272,12 @@ a{
      width: 3.5%;
      height: 2em;
  }
+
+ .footer__contact__img:hover{
+    width: 5%;
+    height: 3em;
+}
+
  .footer__copyright-barre{
      display: flex;
      justify-content: space-between;
@@ -365,12 +381,12 @@ a{
 
  @media all and (max-width: 699px)
  {
-     *{
-         font-size: 5px;
-     }
+    *{
+        font-size: 6.5px;
+    }
 
-     .header__description{
-        width: 200px;
+    .header__description{
+        width: 240px;
     }
 
     .agence__div , .temoignage__bloc,     
@@ -380,6 +396,10 @@ a{
         border-radius: 4px;
         padding: 5px;
     }
+
+    .input__realisation, .input__temoignage{
+    margin-left: 30%;
+}
 
     .service__border-flex img{
         border: 2px solid white;
@@ -398,11 +418,11 @@ a{
     .fond-ecran__header, .fond-ecran__agence-service,
     .fond-ecran__realisation, .fond-ecran__temoignage-contacter
     {
-        padding: 3% 10% 10% 10%;
+        padding: 3% 5% 10% 5%;
     }
 
     #partenaire{
-        margin: 0 10% 5% 10%;
+        margin: 0 5% 5% 5%;
     }
 
 
@@ -411,9 +431,31 @@ a{
     height: 30px;
 }
 
-iframe{
-    height:25vmax;
+.temoignage__bloc__flex{
+    display:inline-block;
+}
+
+.temoignage__bloc{
+    width: 100%;
  }
+
+.contacter__flex{
+    display:inline-block;
+    width: 100%;
+}
+
+form{
+    width: 100%;
+}
+
+.maps{
+    margin-left: 0;
+    width: 100%;
+}
+iframe{
+   width: 100%;
+   height:30vmax;
+}
 
  .footer__contact__flex img{
     margin-right: 10px;
@@ -426,10 +468,10 @@ iframe{
 }
 
     .footer__BG-color{
-        padding: 2% 10% 5% 10%;
+        padding: 2% 5% 5% 5%;
     }
     
     .footer__copyright-barre{
-        padding: 0.5% 10% 0.5% 10%;
+        padding: 0.5% 5% 0.5% 5%;
     }
  }
