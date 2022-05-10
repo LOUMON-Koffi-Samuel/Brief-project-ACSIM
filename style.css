@@ -61,6 +61,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3% 18% 10% 18%;
+    position: relative;
 }
 
 .header__nom-nav__flex{
@@ -70,11 +71,31 @@ a:hover{
 
 .header__nom{
     margin-top: 0;
+animation: header__nom 1500ms;
+}
+
+@keyframes header__nom{
+0% {
+    transform: translateX(-9999px);
+}
+100% {
+    transform: translateX(0);
+    }
 }
 
 .header-lien{
     display: flex;
     font-size: 1.2rem;
+animation: header__lien 2000ms;
+}
+
+@keyframes header__lien{
+0% {
+    transform: translateX(-9999px);
+}
+100% {
+    transform: translateX(0);
+    }
 }
 
 .header-lien a{
@@ -86,8 +107,24 @@ a:hover{
     width: 600px;
     color: white;
     margin: 10% 0 10% 0;
+animation: header__description 3000ms;
+}
+
+@keyframes header__description{
+0% {
+    transform: translateX(-9999px);
+}
+100% {
+    transform: translateX(0);
+    }
 }
     
+.Defilement{
+    margin-left: 30%;
+    padding-top: 6%;
+    position: absolute;
+    width: 50px;
+}
 .fond-ecran__agence-service{
     background-image: url("Images/BG 02@3x.png");
     background-repeat: no-repeat;
@@ -307,6 +344,10 @@ a:hover{
         width: 500px;
     }
 
+    .Defilement{
+        opacity: 0;
+    }
+
     .realisations__img__border{
         width: 250px;
         height: 150px;
@@ -344,6 +385,10 @@ a:hover{
 
      .header__description{
         width: 300px;
+    }
+
+    .Defilement{
+        opacity: 0;
     }
 
     .realisations__img__border{
@@ -387,6 +432,10 @@ a:hover{
 
     .header__description{
         width: 240px;
+    }
+    
+    .Defilement{
+        opacity: 0;
     }
 
     .agence__div , .temoignage__bloc,     
