@@ -71,7 +71,7 @@ a:hover{
 
 .header__nom{
     margin-top: 0;
-animation: header__nom 1500ms;
+animation: header__nom 2000ms;
 }
 
 @keyframes header__nom{
@@ -86,7 +86,7 @@ animation: header__nom 1500ms;
 .header-lien{
     display: flex;
     font-size: 1.2rem;
-animation: header__lien 2000ms;
+animation: header__lien 1700ms;
 }
 
 @keyframes header__lien{
@@ -107,7 +107,7 @@ animation: header__lien 2000ms;
     width: 600px;
     color: white;
     margin: 10% 0 10% 0;
-animation: header__description 3000ms;
+animation: header__description 2700ms;
 }
 
 @keyframes header__description{
@@ -469,7 +469,7 @@ animation: header__description 3000ms;
     }
 
     .fond-ecran__agence-service{
-        background-image: url("Images/BG 02@3x.jpg");
+        background-image: url("Images/BG 02.jpg");
     }
 
     .fond-ecran__realisation{
@@ -477,7 +477,7 @@ animation: header__description 3000ms;
     }
 
     .fond-ecran__temoignage-contacter{
-        background-image: url("Images/BG 02@3x.jpg");
+        background-image: url("Images/BG 02.jpg");
     }
 
     .fond-ecran__header, .fond-ecran__agence-service,
@@ -502,6 +502,7 @@ animation: header__description 3000ms;
 
 .temoignage__bloc{
     width: 100%;
+    margin-top: 10px;
  }
 
 .contacter__flex{
