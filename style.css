@@ -57,7 +57,7 @@ a:hover{
 }
 
 .fond-ecran__header{
-    background-image: url("Images/BG_01.png");
+    background-image: url("Images/BG_01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3% 18% 10% 18%;
@@ -120,7 +120,7 @@ animation: header__description 2700ms;
 }
     
 .fond-ecran__agence-service{
-    background-image: url("Images/BG_02@3x.png");
+    background-image: url("Images/BG_02.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3% 18% 10% 18%;
@@ -156,7 +156,7 @@ animation: header__description 2700ms;
 }
 
 .fond-ecran__realisation{
-    background-image: url("Images/BG_01.png");
+    background-image: url("Images/BG_01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3% 20% 10% 20%;
@@ -212,7 +212,7 @@ animation: header__description 2700ms;
 }
 
 .fond-ecran__temoignage-contacter{
-    background-image: url("Images/BG_02@3x.png");
+    background-image: url("Images/BG_02.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3% 18% 10% 18%;
@@ -448,22 +448,6 @@ animation: header__description 2700ms;
     .realisations__img__border{
         width: 140px;
         height: 70px;
-    }
-
-    .fond-ecran__header{
-        background-image: url("Images/BG_01.jpg");
-    }
-
-    .fond-ecran__agence-service{
-        background-image: url("Images/BG_02.jpg");
-    }
-
-    .fond-ecran__realisation{
-        background-image: url("Images/BG_01.jpg");
-    }
-
-    .fond-ecran__temoignage-contacter{
-        background-image: url("Images/BG_02.jpg");
     }
 
     .fond-ecran__header, .fond-ecran__agence-service,
