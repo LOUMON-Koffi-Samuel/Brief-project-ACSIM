@@ -23,7 +23,7 @@
 }
 
 h2{
-    font-size: 3.5em;
+    font-size: 3.5rem;
     color: #008C8C;
     margin: 40px 0 5% 0;
 }
@@ -36,7 +36,7 @@ section h2{
 
 h3{
     font-family: 'K2D-Bold';
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 p{
@@ -119,12 +119,6 @@ animation: header__description 2700ms;
     }
 }
     
-.Defilement{
-    margin-left: 30%;
-    padding-top: 6%;
-    position: absolute;
-    width: 50px;
-}
 .fond-ecran__agence-service{
     background-image: url("Images/BG_02@3x.png");
     background-repeat: no-repeat;
@@ -344,10 +338,6 @@ animation: header__description 2700ms;
         width: 500px;
     }
 
-    .Defilement{
-        opacity: 0;
-    }
-
     .realisations__img__border{
         width: 250px;
         height: 150px;
@@ -385,10 +375,6 @@ animation: header__description 2700ms;
 
      .header__description{
         width: 300px;
-    }
-
-    .Defilement{
-        opacity: 0;
     }
 
     .realisations__img__border{
@@ -430,12 +416,12 @@ animation: header__description 2700ms;
         font-size: 6.5px;
     }
 
+    p{
+        font-size: 1.8rem;
+    }
+
     .header__description{
         width: 240px;
-    }
-    
-    .Defilement{
-        opacity: 0;
     }
 
     .agence__div , .temoignage__bloc,     
@@ -483,11 +469,11 @@ animation: header__description 2700ms;
     .fond-ecran__header, .fond-ecran__agence-service,
     .fond-ecran__realisation, .fond-ecran__temoignage-contacter
     {
-        padding: 3% 5% 10% 5%;
+        padding: 3% 1% 10% 1%;
     }
 
     #partenaire{
-        margin: 0 5% 5% 5%;
+        margin: 0 1% 5% 1%;
     }
 
 
@@ -534,10 +520,11 @@ iframe{
 }
 
     .footer__BG-color{
-        padding: 2% 5% 5% 5%;
+        padding: 2% 1% 5% 1%;
     }
     
     .footer__copyright-barre{
-        padding: 0.5% 5% 0.5% 5%;
+        padding: 0.5% 1% 0.5% 1%;
     }
  }
+
