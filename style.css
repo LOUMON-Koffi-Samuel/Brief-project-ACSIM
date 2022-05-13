@@ -24,7 +24,7 @@
 
 h2{
     font-size: 3.5rem;
-    color: #008C8C;
+    color: #FD2800;
     margin: 40px 0 5% 0;
 }
 
@@ -49,19 +49,19 @@ a{
     color: white;
     font-family: 'K2D-SemiBold';
     font-size: 1.2em;
+    text-shadow: 0.5px 0.5px 0.5px rgb(0, 0, 0);
 }
 
 a:hover{
-    color: #008C8C;
+    color: #FD2800;
     font-size: 1.4em;
 }
 
 .fond-ecran__header{
-    background-image: url("Images/BG_01.jpg");
+    background-image: url("Images/BG_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3% 18% 10% 18%;
-    position: relative;
 }
 
 .header__nom-nav__flex{
@@ -107,7 +107,8 @@ animation: header__lien 1700ms;
     width: 600px;
     color: white;
     margin: 10% 0 10% 0;
-animation: header__description 2700ms;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    animation: header__description 2700ms;
 }
 
 @keyframes header__description{
@@ -120,14 +121,14 @@ animation: header__description 2700ms;
 }
     
 .fond-ecran__agence-service{
-    background-image: url("Images/BG_02.jpg");
+    background-image: url("Images/BG_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3% 18% 10% 18%;
 }
 
 .agence__div , .temoignage__bloc{
-    border: 4px solid #008C8C ;
+    border: 4px solid #FD2800 ;
     border-radius: 20px;
     background-color: rgb(255, 255, 255,0.1);
     padding: 30px;
@@ -135,7 +136,7 @@ animation: header__description 2700ms;
 
 .service__border-flex{
     display: flex;
-    border: 4px solid #008C8C ;
+    border: 4px solid #FD2800;
     background-color: rgb(255, 255, 255,0.1);
     border-radius: 20px;
     padding: 30px;
@@ -147,7 +148,7 @@ animation: header__description 2700ms;
 }
 
 .service__border-flex img{
-    border: 4px solid white;
+    border: 4px solid #FD2800;
     border-radius: 15px;
     padding: 1.5%;
    margin-top: 20px;
@@ -156,7 +157,7 @@ animation: header__description 2700ms;
 }
 
 .fond-ecran__realisation{
-    background-image: url("Images/BG_01.jpg");
+    background-image: url("Images/BG_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3% 20% 10% 20%;
@@ -169,7 +170,7 @@ animation: header__description 2700ms;
 }
 
 .realisations__img__border{
-    border: 4px solid #008C8C ;
+    border: 4px solid #FD2800;
     width: 350px;
     height: 200px;
     margin: 20px 0 10px 0;
@@ -178,9 +179,9 @@ animation: header__description 2700ms;
 .input__realisation, .input__temoignage,
  #contacter__form__submit,.contacter__form__width{
     border-radius: 10px;
-    color: #008C8C;
+    color: #FD2800;
     background-color: transparent;
-    border: 4px solid #008C8C ;
+    border: 4px solid #FD2800;
     padding: 10px;
     margin-top: 1.5em;
     margin-left: 37%;
@@ -192,7 +193,7 @@ animation: header__description 2700ms;
 .input__temoignage:hover,  #contacter__form__submit:hover{
     color: white;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    background-color: #008C8C;
+    background-color: #FD2800;
     border: 4px solid rgb(255, 253, 253, 0.8) ;
     font-size: 1.8rem;
 }
@@ -209,10 +210,12 @@ animation: header__description 2700ms;
 .partenaire__flex img{
     width: 210px;
     height: 90px;
+    border: 2px solid #FD2800;
+    border-radius: 10px;
 }
 
 .fond-ecran__temoignage-contacter{
-    background-image: url("Images/BG_02.jpg");
+    background-image: url("Images/BG_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3% 18% 10% 18%;
@@ -262,19 +265,21 @@ animation: header__description 2700ms;
  iframe{
     margin-top: 5%;
     border-radius: 10px;
+    border: 4px solid #FD2800;
     width: 100%;
     height: 700px;;
  }
  
  .footer__BG-color{
      margin: 10% 0 10% 0;
-     background-color: #008C8C;
+     background-color:#fd2600f1;
      padding: 2% 18% 5% 18%;
      margin: 0;
  }
  .footer__flex{
      display: flex;
      justify-content: space-between;
+     text-shadow: 1px 1px 1px rgb(0, 0, 0);
  }
 .footer__div__description{
     width: 45%;
@@ -427,7 +432,7 @@ animation: header__description 2700ms;
     .agence__div , .temoignage__bloc,     
     .service__border-flex, .input__realisation, .input__temoignage,
     #contacter__form__submit,.contacter__form__width{
-        border: 2px solid #008C8C ;
+        border: 2px solid #FD2800;
         border-radius: 4px;
         padding: 5px;
     }
@@ -511,4 +516,3 @@ iframe{
         padding: 0.5% 1% 0.5% 1%;
     }
  }
-
