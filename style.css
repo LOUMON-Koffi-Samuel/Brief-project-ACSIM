@@ -1,3 +1,4 @@
+    /*initialisation des valeurs*/
 *{
     font-size: 15px;
     font-family: 'K2D-ExtraBold';
@@ -56,6 +57,8 @@ a:hover{
     color: #FD2800;
     font-size: 1.4em;
 }
+
+    /*partie header*/
 
 .fond-ecran__header{
     background-image: url("Images/BG_1.jpg");
@@ -119,6 +122,8 @@ animation: header__lien 1700ms;
     transform: translateX(0);
     }
 }
+
+    /* Section agence*/
     
 .fond-ecran__agence-service{
     background-image: url("Images/BG_2.jpg");
@@ -133,6 +138,8 @@ animation: header__lien 1700ms;
     background-color: rgb(255, 255, 255,0.1);
     padding: 30px;
 }
+
+    /* Section Service*/
 
 .service__border-flex{
     display: flex;
@@ -155,6 +162,8 @@ animation: header__lien 1700ms;
     width: 13%;
     height: 5%;
 }
+
+    /* Section Realisation*/
 
 .fond-ecran__realisation{
     background-image: url("Images/BG_1.jpg");
@@ -198,6 +207,8 @@ animation: header__lien 1700ms;
     font-size: 1.8rem;
 }
 
+    /* Section partenaire*/
+
 #partenaire{
     margin: 0 20% 5% 20%;
 }
@@ -214,6 +225,7 @@ animation: header__lien 1700ms;
     border-radius: 10px;
 }
 
+    /* Section Temoignage*/
 .fond-ecran__temoignage-contacter{
     background-image: url("Images/BG_2.jpg");
     background-repeat: no-repeat;
@@ -236,6 +248,8 @@ animation: header__lien 1700ms;
      color: black;
      background-color: white;
  }
+
+    /* Section Contacter*/
  
  .contacter__flex{
      display: flex;
@@ -269,6 +283,8 @@ animation: header__lien 1700ms;
     width: 100%;
     height: 700px;;
  }
+
+    /* Section Footer*/
  
  .footer__BG-color{
      margin: 10% 0 10% 0;
@@ -314,6 +330,10 @@ animation: header__lien 1700ms;
     height: 3em;
 }
 
+
+    /* Division Copyright*/
+
+
  .footer__copyright-barre{
      display: flex;
      justify-content: space-between;
@@ -332,6 +352,13 @@ animation: header__lien 1700ms;
  .footer__lien{
      width: 50%;
  }
+
+/* Section Media querry*/
+
+
+
+ /* @media pour pc */
+
 
  @media all and (max-width: 1200px) and (min-width: 1020px)
  {
@@ -371,6 +398,10 @@ animation: header__lien 1700ms;
     }
 
  }
+
+
+ /* @Media pour tablet*/
+
 
  @media all and (max-width: 1019px) and (min-width:700px)
  {
@@ -413,6 +444,9 @@ animation: header__lien 1700ms;
         padding: 0.5% 10% 0.5% 10%;
     }
  }
+
+
+/*@medi pour mobile*/
 
 
  @media all and (max-width: 699px)
